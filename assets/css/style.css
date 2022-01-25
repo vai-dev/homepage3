@@ -778,7 +778,7 @@ select.form-input {
 .main-navigation ul li.sub-items:hover>a:before,
 .main-navigation ul li a:hover:before,
 .main-navigation ul li.active>a:before,
-.main-navigation ul li ul.sub-menu li a:hover {
+.main-navigation ul li ul.sub-menu li a:hover{
     color: var(--bg-pm);
 }
 
@@ -5523,4 +5523,100 @@ select.form-input {
 
 .dzSubscribeMsg{
 	text-align: left;
+}
+
+/* Product Container */
+.product-container {
+    font-family: 'Jost', sans-serif;
+    margin: 0 auto;
+    max-width: 1128px;
+    margin-top: 8rem;
+    color: black;
+  
+}
+.product-container .title-container {
+    
+    display: flex;
+    align-items: baseline;
+}
+.product-container .title-container img{
+    margin-left: 1rem;
+    width: 10%;
+    transform: rotate(-15deg);
+}
+.product-container .title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.product-container .discription {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.product-container .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.product-container .grid .cart {
+    border: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    padding: 1.2rem .8rem ;
+    transition: 0.3s ease-out;
+}
+.product-container .grid .cart:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px -2px rgba(115,115,115,0.75);
+    -webkit-box-shadow: 5px 5px 10px -2px rgba(115,115,115,0.75);
+    -moz-box-shadow: 5px 5px 10px -2px rgba(115,115,115,0.75);
+    transition: 0.3s ease-out;
+}
+.cart-info .product-title {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    
+}
+.product-container .grid .cart .image{
+    width: 300px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+.product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.product-price .original-price {
+    margin-right: .5rem;
+}
+.product-price .discount-price {
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+}
+.add-cart {
+    width: 200px;
+    align-self: center;
+    padding: 6px 12px;
+    border-radius: .4rem;
+    border: none;
+    font-weight: 700;
+    background: #73706F;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+.add-cart:hover {
+    transition: 0.3s ease-out;
+    background: var(--bg-pm);
 }
