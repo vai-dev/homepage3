@@ -259,7 +259,7 @@ p {
 
 .slick-dots li button:hover, 
 .slick-dots li.slick-active button {
-    background: #f56915;
+    background: var(--bg-pm);
 }
 
 .slick-arrow {
@@ -2509,6 +2509,7 @@ select.form-input {
     overflow: hidden;
     z-index: 50;
     display: none;
+    border: 1px solid #fff;
 }
 .scroll-top> i{
     color: white !important;
