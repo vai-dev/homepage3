@@ -112,7 +112,7 @@ p {
 .h1-title {
     font-size: 70px;
     line-height: 80px;
-    color: #ffffff;
+    color: #fff;
     font-weight: bold;
     font-family: 'Jost', sans-serif;
     margin-bottom: 36px;
@@ -152,6 +152,7 @@ p {
     font-family: 'Jost', sans-serif;
     margin-bottom: 11px;
 }
+
 
 .h4-title {
     font-size: 50px;
@@ -545,7 +546,7 @@ select.form-input {
 .breadcrumb-box ul li {
     font-size: 18px;
     line-height: 28px;
-    color: #ffffff;
+    color: var(--bg-pm);
     display: inline-block;
     padding-left: 24px;
     margin-left: 14px;
@@ -567,7 +568,7 @@ select.form-input {
     transform: translate(0,-50%);
     width: 10px;
     height: 10px;
-    background: linear-gradient(to left, #f56915, #f0a80e);
+    background: var(--bg-pm);
     border-radius: 50%;
 }
 
@@ -578,14 +579,14 @@ select.form-input {
 .breadcrumb-box ul li a {
     font-size: 18px;
     line-height: 28px;
-    color: #ffffff;
+    color: var(--bg-pm);
     text-transform: uppercase;
     font-weight: 500;
     transition: 0.3s;
 }
 
 .breadcrumb-box ul li a:hover {
-    color: #f56915;
+    color: #fff;
 }
 /*==========Common CSS End==========*/
 
@@ -624,11 +625,11 @@ select.form-input {
 }
 
 .stopp1 {
-    stop-color: #f56915;
+    stop-color: var(--bg-pm);
 }
 
 .stopp2 {
-    stop-color: #f0a80e;
+    stop-color: var(--bg-sd);
 }
 
 .halvan {
@@ -778,7 +779,7 @@ select.form-input {
 .main-navigation ul li a:hover:before,
 .main-navigation ul li.active>a:before,
 .main-navigation ul li ul.sub-menu li a:hover {
-    color: #f56915;
+    color: var(--bg-pm);
 }
 
 .main-navigation ul li.sub-items:hover>a:before,
@@ -948,11 +949,14 @@ select.form-input {
 
 
 /*==========Banner CSS Start==========*/
+/* 🤣 here style banner start delete */
 .main-banner {
     position: relative;
     padding: 302px 0 334px 0;
     /* background: linear-gradient(to bottom, #20233f, #2d3256); */
-    background: linear-gradient(to bottom, #777caf, #2d3256);
+    background: url('../images/image-3/homebanner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main-banner .container {
@@ -1298,7 +1302,8 @@ select.form-input {
     color: #010f2e;
     position: relative;
     padding-left: 50px;
-    margin-bottom: 18px;
+    margin-bottom: 2rem;
+    
 }
 
 .about-content ul li:before {
@@ -1403,6 +1408,7 @@ select.form-input {
 }
 .row {
     display: flex;
+    
     align-items: center;
     justify-content: space-evenly;
 }
@@ -1744,7 +1750,7 @@ select.form-input {
 
 .portfolio-tabbing ul li .filter:hover,
 .portfolio-tabbing ul li .filter.active {
-    color: #f56915;
+    color: var(--bg-pm);
     text-decoration: underline;
 }
 
@@ -2099,7 +2105,7 @@ select.form-input {
     display: inline-block;
     padding: 5px 20px;
     height: 35px;
-    background: linear-gradient(to right, #f56915, #f0a80e, #f0a80e, #f56915);
+    background: var(--bg-pm);
     background-size: 200% 100%;
     background-position: left center;
     border-radius: 4px;
@@ -2131,7 +2137,7 @@ select.form-input {
 }
 
 .blog-text a {
-    color: #f56915;
+    color: var(--bg-pm);
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline !important;
@@ -2160,7 +2166,7 @@ select.form-input {
 }
 
 .view-all .sec-btn {
-    color: #f56915;
+    color: var(--bg-pm);
 }
 
 .view-all .sec-btn:hover {
@@ -2194,6 +2200,9 @@ select.form-input {
     padding: 412px 0 107px 0;
     /* background: linear-gradient(to bottom, #20233f, #2d3256); */
     background: linear-gradient(to bottom, #777caf, #2d3256);
+    clip-path: polygon(100% 16%, 100% 100%, 0 100%, 0 40%);
+    background: url('../images/image-3/homebanner2.png');
+    background-size: cover;
 }
 
 .site-footer .container {
@@ -2257,7 +2266,7 @@ select.form-input {
 .footer-call a {
     font-size: 25px;
     line-height: 30px;
-    color: #f56915;
+    color: var(--bg-pm);
     font-family: 'Jost', sans-serif;
     font-weight: bold;
     transition: 0.3s;
@@ -2286,7 +2295,7 @@ select.form-input {
     align-items: center;
     width: 41px;
     height: 41px;
-    background: rgba(255,255,255,0.3);
+    background: var(--bg-sd);
     font-size: 16px;
     color: #ffffff;
     border-radius: 50%;
@@ -2307,7 +2316,7 @@ select.form-input {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #f56915, #f0a80e);   
+    background: var(--bg-pm);
     border-radius: 50%;
     opacity: 0;
     transition: 0.3s;
@@ -2331,7 +2340,7 @@ select.form-input {
     left: 0;
     width: 70px;
     height: 1px;
-    background: linear-gradient(to right, #f56915, #f0a80e);
+    background: var(--bg-pm);
     z-index: 0;
 }
 
@@ -2371,7 +2380,7 @@ select.form-input {
 
 .our-links ul li a:hover,
 .footer-service ul li a:hover {
-    color: #f56915;
+    color: var(--bg-pm);
 }
 
 .footer-service ul {
@@ -2391,13 +2400,17 @@ select.form-input {
     transform: translate(0,-50%);
     width: 40px;
     height: 40px;
-    background: linear-gradient(to right, #f56915, #f0a80e);
+    /* background: linear-gradient(to right, #f56915, #f0a80e); */
     border-radius: 50%;
+    background: var(--bg-pm);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     color: #ffffff;
+}
+.footer-contact-link .icon:hover{
+    background: var(--bg-sd);
 }
 
 .footer-contact-link a {
@@ -2409,7 +2422,7 @@ select.form-input {
 }
 
 .footer-contact-link a:hover {
-    color: #f56915;
+    color: var(--bg-pm)
 }
 
 .footer-last {
@@ -2423,12 +2436,12 @@ select.form-input {
 }
 
 .copy-right p a {
-    color: #f0a70e;
+    color: var(--bg-pm);
     transition: 0.3s;
 }
 
 .copy-right p a:hover {
-    color: #f56915;
+    color: var(--bg-sd);
 }
 
 .footer-last-link {
@@ -2460,7 +2473,7 @@ select.form-input {
     left: 0;
     width: 8px;
     height: 8px;
-    background: #f0a70e;
+    background: var(--bg-pm);
     border-radius: 50%;
 }
 
@@ -2475,7 +2488,7 @@ select.form-input {
 }
 
 .footer-last-link ul li a:hover {
-    color: #f56915;
+    color: var(--bg-pm);
 }
 /*==========Footer CSS End==========*/
 
@@ -2484,7 +2497,7 @@ select.form-input {
 .scroll-top {
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    left: 10px;
     width: 50px;
     height: 50px;
     background: var(--bg-pm);
@@ -2496,6 +2509,10 @@ select.form-input {
     overflow: hidden;
     z-index: 50;
     display: none;
+}
+.scroll-top> i{
+    color: white !important;
+    font-size: 2rem;
 }
 
 .scroll-top:hover {
@@ -3030,23 +3047,31 @@ select.form-input {
     transform: translate(0,-50%);
     width: 100%;
     height: 8px;
-    background: linear-gradient(to right, #fa6823, #fb854d);
+    background: var(--bg-pm);
     box-shadow: -6px 6px 30px rgba(250, 104, 35, 0.4);
     border-radius: 5px;
 }
 
 .experience-skill-bar-inner.bar1:before {
-    background: linear-gradient(to right, #fa6823, #fb854d);
+    background: linear-gradient(to right, #1296ee, #4dd2fb);
     box-shadow: -6px 6px 30px rgba(250, 104, 35, 0.4);
 }
 
 .experience-skill-bar-inner.bar2:before {
-    background: linear-gradient(to right, #2c4edb, #5470e2);
+    background: linear-gradient(to right, #18d621, #74c58f);
     box-shadow: -6px 6px 30px rgba(44, 78, 219, 0.4);
 }
 
 .experience-skill-bar-inner.bar3:before {
-    background: linear-gradient(to right, #1fa5a9, #4ab7ba);
+    background: linear-gradient(to right, #b111b1, #ac5eaf);
+    box-shadow: -6px 6px 30px rgba(31, 165, 169, 0.4);
+}
+.experience-skill-bar-inner.bar4:before {
+    background: linear-gradient(to right, #99b111, #a0af5e);
+    box-shadow: -6px 6px 30px rgba(31, 165, 169, 0.4);
+}
+.experience-skill-bar-inner.bar5:before {
+    background: linear-gradient(to right, #2111b1, #5c568b);
     box-shadow: -6px 6px 30px rgba(31, 165, 169, 0.4);
 }
 
@@ -3470,7 +3495,7 @@ select.form-input {
 }
 
 .blog-text .h3-title a:hover {
-    color: #f56915;
+    color: var(--bg-pm);
 }
 
 .main-our-blog.page-our-blog .blog-box {
